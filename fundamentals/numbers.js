@@ -1,4 +1,4 @@
-// números
+// numbers em javascript
 
 const p1 = 1.0
 const p2 = Number('2.0')

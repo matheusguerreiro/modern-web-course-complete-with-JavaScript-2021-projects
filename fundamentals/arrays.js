@@ -1,4 +1,4 @@
-// Arrays
+// arrays em javascript
 
 const v = [7.7, 8.9, 6.3, 9.2]
 console.log(v[0], v[3])

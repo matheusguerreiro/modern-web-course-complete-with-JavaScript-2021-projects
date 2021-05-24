@@ -1,4 +1,4 @@
-// Booleanos
+// booleans em javascript
 
 let isAtivo = false
 console.log(isAtivo)

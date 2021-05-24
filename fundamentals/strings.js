@@ -1,4 +1,4 @@
-// Strings
+// strings em javascript
 
 const e = "Cod3r"
 
