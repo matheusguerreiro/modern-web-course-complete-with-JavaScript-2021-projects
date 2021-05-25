@@ -1,16 +1,16 @@
-// armazenando uma function em uma var, let ou const
-const iSoma = function (a, b) {
+// exemplos básicos de functions em javascript
+
+function Soma(a, b) {
     console.log(a + b)
 }
 
-iSoma(2, 3)
+Soma(2, 3)
 
-// armazenando uma arrow function em uma var, let ou const
-const soma = (a, b) => {
+Soma(2)
+Soma(2, 5, 5, 7, 8)
+Soma()
+
+function soma2(a, b = 1) {
     return a + b
 }
-console.log(soma(3, 3))
-
-// retorno implícito
-const sub = (a, b) => a - b
-console.log(sub(5, 2))
+console.log(soma2(2, 3))
