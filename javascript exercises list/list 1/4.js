@@ -1,0 +1,51 @@
+// minha resolução
+function mes(n) {
+    switch (n) {
+        case 1:
+            return 'Janeiro';
+            break;
+        case 2:
+            return 'Fevereiro';
+            break;
+        case 3:
+            return 'Março';
+            break;
+        case 4:
+            return 'Abril';
+            break;
+        case 5:
+            return 'Maio';
+            break;
+        case 6:
+            return 'Junho';
+            break;
+        case 7:
+            return 'Julho';
+            break;
+        case 8:
+            return 'Agosto';
+            break;
+        case 9:
+            return 'Setembro';
+            break;
+        case 10:
+            return 'Outubro';
+            break;
+        case 11:
+            return 'Novembro';
+            break;
+        case 12:
+            return 'Dezembro';
+            break;
+        default:
+            return 'Número inválido!';
+    }
+}
+console.log(mes(5))
+
+// resolução 2
+function receberMesDoAno(numero) {
+    mapa = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+    return mapa[--numero]
+}
+console.log(receberMesDoAno(5))
